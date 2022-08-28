@@ -9,7 +9,7 @@
 
   <!-- ICONS -->
 
-  <!-- <script src="https://kit.fontawesome.com/35c3c81271.js" crossorigin="anonymous"></script> -->
+  <script src="https://kit.fontawesome.com/35c3c81271.js" crossorigin="anonymous"></script>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -31,12 +31,12 @@
   <title>BFX GYM</title>
 </head>
 
-<body>
+<body style="padding: 0 0 1% 0;">
   <section id="title">
     <div class="container-fluid">
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark ">
-        <a class="navbar-brand" href="#">BFX GYM</a>
+        <a class="navbar-brand" href="#" style="line-height: 1.2;"><i class="fa-solid fa-dumbbell"></i>  BFX GYM</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -74,17 +74,152 @@
       </div>
 
     </div>
-
-
-
-
-
-
-
-
     </div>
 
   </section>
+  <section id="pricing">
+    <p class="plans">Premium Plans</p>
+    <div class="row">
+
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="h3-font">Monthly Plan</h3>
+          </div>
+          <div class="card-body">
+            <h2>$700</h2>
+            <p>Personal Trainer</p>
+            <p>All types of equipment access</p>
+            <p>Entry fee</p>
+            <button type="button" class="btn btn-block btn-lg btn-outline-dark">GET NOW</button>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <div class="pricing-column col-lg-4 col-md-6">
+
+        <div class="card">
+          <div class="card-header">
+            <h3 class="h3-font">Half Year Plan</h3>
+
+          </div>
+          <div class="card-body">
+            <h2>$2000</h2>
+            <p>Personal Trainer</p>
+            <p>All types of equipment access</p>
+            <p>No entry fee</p>
+            <button type="button" class="btn btn-block btn-dark btn-lg" >GET NOW</button>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pricing-column col-lg-4 ">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="h3-font">One Year Plan</h3>
+
+          </div>
+          <div class="card-body">
+            <h2>$4500</h2>
+            <p>Personal Trainer</p>
+            <p>All types of equipment access</p>
+            <p>No entry fee</p>
+            <p>Free Advice</p>
+            <button type="button" class="btn btn-block btn-dark btn-lg">GET NOW</button>
+
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  </section>
+
+  <section id="contact">
+    <div class="contain">
+
+  <div class="wrapper">
+
+    <div class="form">
+      <h4>GET IN TOUCH</h4>
+      <h2 class="form-headline">Send us a message</h2>
+      <form id="submit-form" action="">
+        <p>
+          <input id="name" class="form-input" type="text" placeholder="Your Name*">
+          <small class="name-error"></small>
+        </p>
+        <p>
+          <input id="email" class="form-input" type="email" placeholder="Your Email*">
+          <small class="name-error"></small>
+        </p>
+        <p class="full-width">
+          <input id="company-name" class="form-input" type="text" placeholder="Company Name*" required>
+          <small></small>
+        </p>
+        <p class="full-width">
+          <textarea  minlength="20" id="message" cols="30" rows="7" placeholder="Your Message*" required></textarea>
+          <small></small>
+        </p>
+        <p class="full-width">
+          <input type="checkbox" id="checkbox" name="checkbox" checked> Yes, I would like to receive communications by call / email about GYM's services.
+        </p>
+        <p class="full-width">
+          <input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
+          <button class="reset-btn" onclick="reset()">Reset</button>
+        </p>
+      </form>
+    </div>
+
+    <div class="contacts contact-wrapper">
+
+      <ul>
+        <li>We've driven online revenues of over <span class="highlight-text-grey">$2
+            billion</span> for our clients. Ready to know
+          how we can help you?</li>
+        <span class="hightlight-contact-info">
+          <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i> shindeaditya684@gmail.com</li>
+          <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+91 8459858445</span></li>
+        </span>
+      </ul>
+    </div>
+  </div>
+</div>
+
+  </section>
+
+
+  <footer id="footer">
+    <hr style="border : 1px light;">
+    <p class="location"><i class="fa-solid fa-location-dot"></i> Address: Pune Hadapasr </p>
+    <i class="fa-brands fa-twitter    footer-icon"></i>
+    <i class="fa-brands fa-facebook-f  footer-icon"></i>
+    <i class="fa-brands fa-instagram  footer-icon"></i>
+    <i class="fa-solid  fa-envelope   footer-icon"></i>
+
+
+    <p class="p-footer"> ©Copyright BFX_GYM</p>
+
+
+  </footer>
 
 
 </body>
